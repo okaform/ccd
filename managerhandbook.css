@@ -1,0 +1,63 @@
+/*body {
+    background-image: url("images/man-wearing-blue-suit-2897883.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}*/
+body {
+    font-size: 16px;
+}
+
+#content {
+    color: white;
+    background-image: url("images/man-wearing-blue-suit-2897883.jpg");
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.5em;
+}
+
+#content h1 {
+    margin: 0 0 5px 0;
+}
+
+
+main .chapterslist li {
+    color: white;
+    list-style-type: none;
+    padding: 1em;
+    background-color: #02274D;
+    border: 2px solid white;
+    margin-bottom: .5em;
+    width: 40%;
+    cursor: pointer;
+}
+
+main .chapterslist li:hover {
+    background-color: aqua;
+}
+
+.styles {
+    color: black;
+    padding: 1em;
+    background-color: salmon;/*#02274D;*/
+    border: 2px solid white;
+    margin-bottom: .5em;  
+}
+
+a  {
+    color: burlywood;
+}
+
+/*#chapterone {
+    display: block;
+    position: absolute;
+    width: 76%;
+    height: 85%;
+    top: 50px;
+
+    #containerbox {
+    display: flex;
+}
+    
+}*/
+
