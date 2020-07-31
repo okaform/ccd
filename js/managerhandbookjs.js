@@ -1,21 +1,38 @@
+//This prompts the user for a password before logging into the page
+// function password() {
+//     let prompt1 = window.prompt("Enter Password to open page");
+//     window.alert("what is happening?")
+
+// if (prompt1.value == "12345") {
+//     window.alert("Correct Password! Click Ok to continue");
+// }
+// else {
+//         window.prompt("Not Correct! Enter Password to open page");
+//     }
+
+// }
+
 
 //This function is for the nav bar
 
 function navOpen() {
-    let y = document.getElementById("navContainer").classList.toggle("hide");
-    document.getElementById("navContainer").style.width = "92%";
+    let nav = document.getElementById("navContainer");
+    if (nav.style.width == "96%") {
+        //c = document.getElementById("changeSymbol").innerHTML = "&#9776;";
+        nav.style.width = "0";
+   
+       }
+
+    else {
+   // let y = document.getElementById("navContainer").classList.toggle("hide");
+    nav.style.width = "96%";
     let liItems = document.querySelectorAll("nav ul li");
     // liItems.forEach((li)=> {
     //     li.style.display = "block";
     // });
 
    // let c = document.getElementById("changeSymbol").innerHTML = "&#935;";
-
-   if (y == true) {
-    //c = document.getElementById("changeSymbol").innerHTML = "&#9776;";
-    document.getElementById("navContainer").style.width = "0";
-
-   }
+    }
 }
 
 
@@ -33,7 +50,7 @@ for (let i = 0; i < shw.length; i++) {
         for(let j = 0; j < shw1.length; j++) {
             shw1[j].style.display = "none";
         }
-        
+
         //display the item being clicked and the others will be closed
             shw1[i].style.display = "block";
        document.getElementById("navContainer").style.width = "0";
