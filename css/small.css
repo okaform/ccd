@@ -33,6 +33,9 @@ header {
     display: grid;
     grid-template-columns: 2em 1fr;
     grid-gap: .4em;
+    background-color: darkgrey;
+    margin: 0 auto;
+    width: 96%;
 }
 
 /* This is for the nav */
@@ -52,13 +55,19 @@ nav ul {
 
 
 nav ul li {
-    cursor: pointer;
     list-style-type: none;
-    padding: .8em;
     font-size: .8em;
+    border-bottom: 2px solid #ccc;
 }
 
-nav ul li:hover {
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1em .5em;
+}
+
+nav ul li a:hover {
     background-color: crimson;
     color: white;
 }
@@ -74,40 +83,9 @@ nav ul li:hover {
 
 
 
-main .chapterslist li {
-    color: white;
-    list-style-type: none;
-    padding: 1em;
-    background-color: #02274D;
-    border: 2px solid white;
-    margin-bottom: .5em;
-    width: 40%;
-    cursor: pointer;
-}
 
 
-.styles {
-    color: black;
-    padding: 1em;
-    background-color: salmon; #02274D;
-    border: 2px solid white;
-    margin-bottom: .5em;  
-}
 
-a  {
-    color: burlywood;
-} 
-
-#chapterone {
-    display: block;
-    position: absolute;
-    width: 76%;
-    height: 85%;
-    top: 50px;
-
-    #containerbox {
-    display: flex;
-}
     
 }*/
 
