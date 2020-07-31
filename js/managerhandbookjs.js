@@ -8,7 +8,7 @@
 
 function navOpen() {
     let y = document.getElementById("navContainer").classList.toggle("hide");
-    document.getElementById("navContainer").style.width = "84%";
+    document.getElementById("navContainer").style.width = "92%";
     
    // let c = document.getElementById("changeSymbol").innerHTML = "&#935;";
 
@@ -16,4 +16,9 @@ function navOpen() {
     //c = document.getElementById("changeSymbol").innerHTML = "&#9776;";
     document.getElementById("navContainer").style.width = "0";
    }
+}
+
+function showPage() {
+    let shw = document.getElementsByClassName("styles");
+    console.log(shw);
 }

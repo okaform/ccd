@@ -63,6 +63,10 @@ nav ul li:hover {
     color: white;
 }
 
+.styles {
+    display: none;
+}
+
 
 /* #content {
     background-image: url("../images/man-wearing-blue-suit-2897883.jpg");
@@ -81,9 +85,6 @@ main .chapterslist li {
     cursor: pointer;
 }
 
-main .chapterslist li:hover {
-    background-color: aqua;
-}
 
 .styles {
     color: black;
