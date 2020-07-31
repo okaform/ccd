@@ -1,8 +1,3 @@
-// console.log(document.getElementsByClassName("container"));
-
-// console.log(document.querySelectorAll('container'));
-
-// let containers = console.log(document.getElementById("containers").classList.toggle("game"));
 
 //This function is for the nav bar
 
@@ -23,12 +18,27 @@ function navOpen() {
    }
 }
 
-let shw = document.getElementsByClassName("styles");  
+
+//This selects every li element
+let shw = document.querySelectorAll("nav ul li"); 
+
+//This selects the div with the different sections
+let shw1 = document.getElementsByClassName("styles"); 
+
+//run a for loop that selects the li item being clicked 
 for (let i = 0; i < shw.length; i++) {
     shw[i].addEventListener("click", ()=> {
-        document.getElementById("navContainer").style.width = "0";
-    }
-    );
+
+        //This makes sure that the other sections stay closed when one is clicked
+        for(let j = 0; j < shw1.length; j++) {
+            shw1[j].style.display = "none";
+        }
+        
+        //display the item being clicked and the others will be closed
+            shw1[i].style.display = "block";
+       document.getElementById("navContainer").style.width = "0";
+    });
+    
 }
 
 function showPage() {      
