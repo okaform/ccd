@@ -36,7 +36,7 @@ header h1 {
 
 /* This puts the hamburger button and the text in a grid */
 header {
-    background-color: #86BBD8;
+    background-color: #5E7987;
     width: 100%;
     margin: 0;
     position: fixed;
@@ -69,7 +69,7 @@ header div#headContainer {
 
 /* This is for the nav */
 nav {
-    background-color: #86BBD8;
+    background-color: #5E7987;
     transition: .5s ease;
     width: 0;
     overflow: hidden;
@@ -104,9 +104,12 @@ nav ul li a:hover {
 /* This is for the style boxes */
 .styles {
     display: none;
-    background-color: #5E7987;
+    background-color: #86BBD8;
 }
 
+.styles p {
+    padding: .5em;
+}
 
 /* #content {
     background-image: url("../images/man-wearing-blue-suit-2897883.jpg");
