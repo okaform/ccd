@@ -61,5 +61,9 @@ for (let i = 0; i < shw.length; i++) {
 function showPage() {      
     // document.getElementById("navContainer").style.width = "0";
     // console.log(shw);
+
+    //get the elements by class name
+    let intro = document.getElementsByClassName("styles"); 
+    intro[0].style.display = "block";
 }
 

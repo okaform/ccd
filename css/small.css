@@ -36,7 +36,7 @@ header h1 {
 
 /* This puts the hamburger button and the text in a grid */
 header {
-    background-color: darkgrey;
+    background-color: #86BBD8;
     width: 100%;
     margin: 0;
     position: fixed;
@@ -63,10 +63,13 @@ header div#headContainer {
     width: 100%;
 }
 
+.intro h3 {
+    text-align: center;
+}
 
 /* This is for the nav */
 nav {
-    background-color: cornsilk;
+    background-color: #86BBD8;
     transition: .5s ease;
     width: 0;
     overflow: hidden;
@@ -83,7 +86,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     font-size: .8em;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #363635;
 }
 
 nav ul li a {
@@ -98,8 +101,10 @@ nav ul li a:hover {
     color: white;
 }
 
+/* This is for the style boxes */
 .styles {
     display: none;
+    background-color: #5E7987;
 }
 
 
