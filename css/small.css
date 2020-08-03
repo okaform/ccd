@@ -55,6 +55,12 @@ header div#headContainer {
 
 .styles h3 {
     padding: .5em 0;
+    text-align: center;
+}
+
+/* This is for the images in all the div pages */
+.styles img {
+    width: 100%;
 }
 
 
