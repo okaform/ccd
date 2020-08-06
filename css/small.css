@@ -18,6 +18,8 @@ header h1 {
 }
 
 #content{
+    position: relative;
+    background-color: #5E7987;
     width: 96%;
     margin: 2.5em auto 0;
 }
@@ -114,6 +116,18 @@ nav ul li a:hover {
 .styles p,
 .styles li {
     padding: .5em;
+}
+
+/* For the previous button */
+#prevButton {
+        cursor: pointer;
+}
+
+/* For the next button */
+#nxtButton {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
 }
 
 /* #content {

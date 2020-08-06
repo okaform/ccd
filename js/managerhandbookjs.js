@@ -75,13 +75,10 @@ function showPage() {
 
 function openMenuLarge() {
     let nav = document.getElementById("navContainer");
-
     if (nav.style.width == "50%") {
                 nav.style.width = "0";
-       }
-
+    }
     else {
        nav.style.width = "50%";
     }
-    
 }
