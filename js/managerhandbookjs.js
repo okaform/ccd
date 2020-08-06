@@ -72,7 +72,7 @@ function showPage() {
     intro[0].style.display = "block";
 }
 
-
+//This is for the menu from medium and large view
 function openMenuLarge() {
     let nav = document.getElementById("navContainer");
     if (nav.style.width == "50%") {
@@ -81,4 +81,29 @@ function openMenuLarge() {
     else {
        nav.style.width = "50%";
     }
+}
+
+//This is for the for the button to display the boxes
+let slideIndex = 1;
+boxSlider(slideIndex);
+
+function plusBox(n) {
+    boxSlider(slideIndex +=n);
+}
+
+function boxSlider(n) {
+    let i;
+    let boxGrab = document.getElementsByClassName("styles");
+    if (n > boxGrab.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = boxGrab.length;
+    }
+
+    for (i = 0; i < boxGrab.length; i++) {
+        boxGrab[i].style.display = "none";
+    }
+
+    boxGrab[slideIndex - 1].style.display = "block";
 }
