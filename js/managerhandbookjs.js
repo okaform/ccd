@@ -17,6 +17,9 @@
 
 function navOpen() {
     let nav = document.getElementById("navContainer");
+    // let mediumView = window.matchMedia("(min-width: 32.5em)");
+    // let largeView = window.matchMedia("(min-width: 60em)");
+
     if (nav.style.width == "96%") {
         //c = document.getElementById("changeSymbol").innerHTML = "&#9776;";
         nav.style.width = "0";
@@ -33,6 +36,8 @@ function navOpen() {
 
    // let c = document.getElementById("changeSymbol").innerHTML = "&#935;";
     }
+    
+   
 }
 
 
@@ -67,3 +72,16 @@ function showPage() {
     intro[0].style.display = "block";
 }
 
+
+function openMenuLarge() {
+    let nav = document.getElementById("navContainer");
+
+    if (nav.style.width == "50%") {
+                nav.style.width = "0";
+       }
+
+    else {
+       nav.style.width = "50%";
+    }
+    
+}

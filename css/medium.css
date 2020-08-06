@@ -1,5 +1,45 @@
 @media screen and (min-width: 32.5em) {
 
+.styles img {
+    width: 50%;
+    box-shadow: 5px 5px 5px #ccc;
+    margin: 0 .5em .5em 0;
+}
+
+#content {
+    width: 80%;
+}
+
+/* For the menu button on the header */
+#menu {
+    display: block;
+    margin: 0 0 .1em 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+header div#headContainer {
+    grid-template-columns: 4em 1fr;
+}
+
+
+#container {
+    display: none;
+}
+
+header div#headContainer {
+    width: 80%;
+}
+
+/* This is for the nav transition*/
+nav {
+    transition: none;
+}
+
+/* This is for the style boxes */
+.styles {
+    margin-bottom: .5em;
+}
 
 
 

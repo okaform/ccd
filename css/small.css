@@ -2,7 +2,7 @@ body {
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, button {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
@@ -25,6 +25,10 @@ header h1 {
 /* This is for the hamburger button */
 #container {
     cursor: pointer;
+}
+
+#menu{
+    display: none;
 }
 
 #one, #two, #three {
@@ -107,7 +111,8 @@ nav ul li a:hover {
     background-color: #86BBD8;
 }
 
-.styles p {
+.styles p,
+.styles li {
     padding: .5em;
 }
 
